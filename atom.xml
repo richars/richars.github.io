@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://richars.github.io/"/>
-  <updated>2017-01-04T07:10:22.883Z</updated>
+  <updated>2017-01-04T06:45:41.106Z</updated>
   <id>http://richars.github.io/</id>
   
   <author>
@@ -14,20 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>hexo post</title>
-    <link href="http://richars.github.io/post/hexo-post/"/>
-    <id>http://richars.github.io/post/hexo-post/</id>
-    <published>2017-01-04T07:10:22.000Z</published>
-    <updated>2017-01-04T07:10:22.883Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>2017年第一篇</title>
