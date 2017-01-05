@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://richars.github.io/"/>
-  <updated>2017-01-05T01:03:03.852Z</updated>
+  <updated>2017-01-05T06:13:46.309Z</updated>
   <id>http://richars.github.io/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://richars.github.io/post/%E4%B8%80%E9%94%AE%E6%90%AD%E5%BB%BA%E9%80%82%E7%94%A8%E4%BA%8EUbuntu-CentOS%E7%9A%84IKEV2-L2TP%E7%9A%84VPN/"/>
     <id>http://richars.github.io/post/一键搭建适用于Ubuntu-CentOS的IKEV2-L2TP的VPN/</id>
     <published>2017-01-05T01:01:44.000Z</published>
-    <updated>2017-01-05T01:03:03.852Z</updated>
+    <updated>2017-01-05T06:13:46.309Z</updated>
     
     <content type="html"><![CDATA[<h1 id="一键搭建适用于Ubuntu-CentOS的IKEV2-L2TP的VPN"><a href="#一键搭建适用于Ubuntu-CentOS的IKEV2-L2TP的VPN" class="headerlink" title="一键搭建适用于Ubuntu/CentOS的IKEV2/L2TP的VPN"></a>一键搭建适用于Ubuntu/CentOS的IKEV2/L2TP的VPN</h1><hr>
 <p>使用quericy编写的bash脚本一键搭建Ikev2的vpn服务端：  <a href="https://github.com/quericy/one-key-ikev2-vpn" target="_blank" rel="external">https://github.com/quericy/one-key-ikev2-vpn</a> </p>
@@ -141,6 +141,10 @@
     
     </summary>
     
+      <category term="Linux" scheme="http://richars.github.io/categories/Linux/"/>
+    
+    
+      <category term="Linux VPS" scheme="http://richars.github.io/tags/Linux-VPS/"/>
     
   </entry>
   
