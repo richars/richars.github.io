@@ -1,27 +1,26 @@
 
-  
-    <!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
   
-    <title>simple blog of richars</title>
+    <title>search | simple blog of richars</title>
     <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
     
     <meta name="author" content="richars">
     
 
     
-    <meta name="description" content="‘front-matter’ layout: search title: search">
+    <meta name="description" content="����һ������Github��Hexo�ľ�̬Blog��ϣ���ü򵥶�������д����ʽMarkdown�����Լ����ĵ����ᡣ">
 <meta property="og:type" content="website">
-<meta property="og:title" content="simple blog of richars">
+<meta property="og:title" content="search">
 <meta property="og:url" content="http://richars.github.io/search/index.html">
 <meta property="og:site_name" content="simple blog of richars">
-<meta property="og:description" content="‘front-matter’ layout: search title: search">
-<meta property="og:updated_time" content="2017-01-05T04:46:10.332Z">
+<meta property="og:description" content="����һ������Github��Hexo�ľ�̬Blog��ϣ���ü򵥶�������д����ʽMarkdown�����Լ����ĵ����ᡣ">
+<meta property="og:updated_time" content="2017-01-05T05:34:12.331Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="simple blog of richars">
-<meta name="twitter:description" content="‘front-matter’ layout: search title: search">
+<meta name="twitter:title" content="search">
+<meta name="twitter:description" content="����һ������Github��Hexo�ľ�̬Blog��ϣ���ü򵥶�������д����ʽMarkdown�����Լ����ĵ����ᡣ">
 
     
     <link rel="alternative" href="/atom.xml" title="simple blog of richars" type="application/atom+xml">
@@ -36,9 +35,9 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 
-      <body>
-        <header>
-          
+    <body>
+      <header>
+        
 <div>
 		
 			<div id="imglogo">
@@ -65,70 +64,40 @@
 					
 					<li>
  					
-					<form class="search" action="//google.com/search" method="get" accept-charset="utf-8">
+					<form class="search" action="/search/index.html" method="get" accept-charset="utf-8">
 						<label>Search</label>
-						<input type="search" id="search" name="q" autocomplete="off" maxlength="20" placeholder="搜索" />
-						<input type="hidden" name="q" value="site:richars.github.io">
+						<input type="search" id="search" autocomplete="off" name="q" maxlength="20" placeholder="搜索" />
 					</form>
 					
 					</li>
 				</ul>
 			</nav>			
 </div>
-        </header>
-        <div id="container">
-          <div id="main" class="page" itemscope itemprop="blogPost">
-  
-	<article itemprop="articleBody"> 
-		<header class="article-info clearfix">
-  <h1 itemprop="name">
-    
-      <a href="/search/index.html" title="" itemprop="url"></a>
-  </h1>
-  <p class="article-author">By
-       
-		<a href="/about" title="richars" target="_blank" itemprop="author">richars</a>
-		
-  <p class="article-time">
-    <time datetime="2017-01-05T04:46:10.332Z" itemprop="datePublished"> 发表于 2017-01-05</time>
-    
-  </p>
-</header>
-	<div class="article-content">
-		
-		<p>‘front-matter’<br> layout: search<br> title: search</p>
-  
-	</div>
-		<footer class="article-footer clearfix">
-<div class="article-catetags">
-
-
+      </header>
+      <div id="container">
+        
+<div  id="main" class="page">
+  <div id='cse' style='width:100%;text-align:center'>正在加载搜索结果，请稍等。</div>
 </div>
+<script src="http://www.google.com.hk/jsapi" type="text/javascript"></script>
+<script type="text/javascript">
+google.load('search', '1', {language : 'zh-CN',style: google.loader.themes.MINIMALIST});
+google.setOnLoadCallback(function(){
+  var customSearchControl = new google.search.CustomSearchControl('016832302169575824495:fygonaw08cc');
+  customSearchControl.setResultSetSize(google.search.Search.FILTERED_CSE_RESULTSET);
+  var options = new google.search.DrawOptions();
+  options.setAutoComplete(true);
+  customSearchControl.draw('cse', options);
+  var match = location.search.match(/q=([^&]*)(&|$)/);
+  if(match && match[1]){
+    var search = decodeURIComponent(match[1]); 
+    customSearchControl.execute(search);
+  }
+},true);
+</script>
 
-
-
-	<div class="article-share" id="share">
-	
-	  <div data-url="http://richars.github.io/search/index.html" data-title="simple blog of richars" data-tsina="null" class="share clearfix">
-	  </div>
-	
-	</div>
-
-
-</footer>
-
-   	       
-	</article>
-	
-	
-<section id="comments" class="comment">
-	<div class="ds-thread" data-thread-key="search/index.html" data-title="" data-url="http://richars.github.io/search/index.html"></div>
-</section>
-
-
-</div>  
-        </div>
-        <footer><div id="footer" >
+      </div>
+      <footer><div id="footer" >
 	
 	
 	<section class="info">
@@ -160,7 +129,7 @@
 		</p>
 </div>
 </footer>
-        <script src="/js/jquery-2.0.3.min.js"></script>
+      <script src="/js/jquery-2.0.3.min.js"></script>
 <script src="/js/jquery.imagesloaded.min.js"></script>
 <script src="/js/gallery.js"></script>
 <script src="/js/jquery.qrcode-0.12.0.min.js"></script>
@@ -210,55 +179,6 @@ $(document).ready(function(){
 });
 </script>
 
-
-<script type="text/javascript">
-$(document).ready(function(){ 
-  var $this = $('.share'),
-      url = $this.attr('data-url'),
-      encodedUrl = encodeURIComponent(url),
-      title = $this.attr('data-title'),
-      tsina = $this.attr('data-tsina'),
-      description = $this.attr('description');
-  var html = [
-  '<div class="hoverqrcode clearfix"></div>',
-  '<a class="overlay" id="qrcode"></a>',
-  '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="article-share-facebook" target="_blank" title="Facebook"></a>',
-  '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="article-share-twitter" target="_blank" title="Twitter"></a>',
-  '<a href="#qrcode" class="article-share-qrcode" title="微信"></a>',
-  '<a href="http://widget.renren.com/dialog/share?resourceUrl=' + encodedUrl + '&srcUrl=' + encodedUrl + '&title=' + title +'" class="article-share-renren" target="_blank" title="人人"></a>',
-  '<a href="http://service.weibo.com/share/share.php?title='+title+'&url='+encodedUrl +'&ralateUid='+ tsina +'&searchPic=true&style=number' +'" class="article-share-weibo" target="_blank" title="微博"></a>',
-  '<span title="Share to"></span>'
-  ].join('');
-  $this.append(html);
-
-  $('.hoverqrcode').hide();
-
-  var myWidth = 0;
-  function updatehoverqrcode(){
-    if( typeof( window.innerWidth ) == 'number' ) {
-      myWidth = window.innerWidth;
-    } else if( document.documentElement && document.documentElement.clientWidth) {
-      myWidth = document.documentElement.clientWidth;
-    };
-    var qrsize = myWidth > 1024 ? 200:100;
-    var options = {render: 'image', size: qrsize, fill: '#2ca6cb', text: url, radius: 0.5, quiet: 1};
-    var p = $('.article-share-qrcode').position();
-    $('.hoverqrcode').empty().css('width', qrsize).css('height', qrsize)
-                          .css('left', p.left-qrsize/2+20).css('top', p.top-qrsize-10)
-                          .qrcode(options);
-  };
-  $(window).resize(function(){
-    $('.hoverqrcode').hide();
-  });
-  $('.article-share-qrcode').click(function(){
-    updatehoverqrcode();
-    $('.hoverqrcode').toggle();
-  });
-  $('.article-share-qrcode').hover(function(){}, function(){
-      $('.hoverqrcode').hide();
-  });
-});   
-</script>
 
 
 
@@ -340,6 +260,5 @@ var _hmt = _hmt || [];
 
 <!-- Tiny_search End -->
 
-      </body>
-     </html>
-     
+    </body>
+   </html>
