@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://richars.github.io/"/>
-  <updated>2017-01-05T06:13:46.309Z</updated>
+  <updated>2017-01-05T08:28:23.945Z</updated>
   <id>http://richars.github.io/</id>
   
   <author>
@@ -16,11 +16,58 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>shadowsocks安装及配置</title>
+    <link href="http://richars.github.io/post/shadowsocks%E5%AE%89%E8%A3%85%E5%8F%8A%E9%85%8D%E7%BD%AE/"/>
+    <id>http://richars.github.io/post/shadowsocks安装及配置/</id>
+    <published>2017-01-05T08:28:23.000Z</published>
+    <updated>2017-01-05T08:28:23.945Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>serverspeeder锐速一键破解安装版</title>
+    <link href="http://richars.github.io/post/serverspeeder%E9%94%90%E9%80%9F%E4%B8%80%E9%94%AE%E7%A0%B4%E8%A7%A3%E5%AE%89%E8%A3%85%E7%89%88/"/>
+    <id>http://richars.github.io/post/serverspeeder锐速一键破解安装版/</id>
+    <published>2017-01-05T08:23:06.000Z</published>
+    <updated>2017-01-05T08:26:38.102Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="serverspeeder锐速一键破解安装版"><a href="#serverspeeder锐速一键破解安装版" class="headerlink" title="serverspeeder锐速一键破解安装版"></a>serverspeeder锐速一键破解安装版</h1><p>使用91yun的一键安装包，github： <a href="https://github.com/91yun/serverspeeder" target="_blank" rel="external">https://github.com/91yun/serverspeeder</a><br>本破解锐速是是无限带宽版的，破解版锐速的一些代码将逐步开源在github。</p>
+<h1 id="特别说明"><a href="#特别说明" class="headerlink" title="特别说明"></a>特别说明</h1><p>另外：重要的事情说三遍！！！</p>
+<p>锐速不支持Openvz！！！锐速不支持Openvz！！！锐速不支持Openvz！！！</p>
+<p>###你可能需要：</p>
+<ul>
+<li>如果你不知道你的机子到底是不是Openvz，请食用<a href="http://www.91yun.org/archives/836" target="_blank" rel="external">《教程：一键检测VPS是Openvz还是KVM还是Xen》</a></li>
+<li>如果你的内核不对，是Centos的话请食用<a href="http://www.91yun.org/archives/795" target="_blank" rel="external">《教程：CentOS更换内核，提供锐速可用的内核下载》</a>。debian和ubuntu我不熟，暂时还没一键包，请自行百度google。。</li>
+</ul>
+<h1 id="锐速破解版安装方法："><a href="#锐速破解版安装方法：" class="headerlink" title="锐速破解版安装方法："></a>锐速破解版安装方法：</h1><pre><code>wget -N --no-check-certificate https://raw.githubusercontent.com/91yun/serverspeeder/master/serverspeeder-all.sh &amp;&amp; bash serverspeeder-all.sh
+</code></pre><h1 id="锐速破解版卸载方法："><a href="#锐速破解版卸载方法：" class="headerlink" title="锐速破解版卸载方法："></a>锐速破解版卸载方法：</h1><pre><code>chattr -i /serverspeeder/etc/apx* &amp;&amp; /serverspeeder/bin/serverSpeeder.sh uninstall -f
+</code></pre><p>锐速破解版功能：<br>如果内核完全匹配就会自动下载安装。<br>如果没有完全匹配的内核，会在界面提示可选内核，可以手动选个最接近的尝试<br>自动下载授权文件<br>自动修改配置文件<br>已chattr +i /serverspeeder/etc/apx*禁止修改配置文件，可以不用加hosts了<br>目前只支持CentOS，ubuntu和debian。如果有其他系统支持，可以到<a href="http://www.91yun.org/serverspeeder91yun" target="_blank" rel="external">91yun.org博客</a>手动下载其他系统的安装包</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;serverspeeder锐速一键破解安装版&quot;&gt;&lt;a href=&quot;#serverspeeder锐速一键破解安装版&quot; class=&quot;headerlink&quot; title=&quot;serverspeeder锐速一键破解安装版&quot;&gt;&lt;/a&gt;serverspeeder锐速一键破解安
+    
+    </summary>
+    
+      <category term="Linux" scheme="http://richars.github.io/categories/Linux/"/>
+    
+    
+      <category term="Linux|VPS" scheme="http://richars.github.io/tags/Linux-VPS/"/>
+    
+  </entry>
+  
+  <entry>
     <title>一键搭建适用于Ubuntu/CentOS的IKEV2/L2TP的VPN</title>
     <link href="http://richars.github.io/post/%E4%B8%80%E9%94%AE%E6%90%AD%E5%BB%BA%E9%80%82%E7%94%A8%E4%BA%8EUbuntu-CentOS%E7%9A%84IKEV2-L2TP%E7%9A%84VPN/"/>
     <id>http://richars.github.io/post/一键搭建适用于Ubuntu-CentOS的IKEV2-L2TP的VPN/</id>
     <published>2017-01-05T01:01:44.000Z</published>
-    <updated>2017-01-05T06:13:46.309Z</updated>
+    <updated>2017-01-05T08:27:03.053Z</updated>
     
     <content type="html"><![CDATA[<h1 id="一键搭建适用于Ubuntu-CentOS的IKEV2-L2TP的VPN"><a href="#一键搭建适用于Ubuntu-CentOS的IKEV2-L2TP的VPN" class="headerlink" title="一键搭建适用于Ubuntu/CentOS的IKEV2/L2TP的VPN"></a>一键搭建适用于Ubuntu/CentOS的IKEV2/L2TP的VPN</h1><hr>
 <p>使用quericy编写的bash脚本一键搭建Ikev2的vpn服务端：  <a href="https://github.com/quericy/one-key-ikev2-vpn" target="_blank" rel="external">https://github.com/quericy/one-key-ikev2-vpn</a> </p>
@@ -144,7 +191,7 @@
       <category term="Linux" scheme="http://richars.github.io/categories/Linux/"/>
     
     
-      <category term="Linux VPS" scheme="http://richars.github.io/tags/Linux-VPS/"/>
+      <category term="Linux|VPS" scheme="http://richars.github.io/tags/Linux-VPS/"/>
     
   </entry>
   
